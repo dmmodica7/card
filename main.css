@@ -1,1 +1,16 @@
-h1{color: rgb(255, 51, 129);}
+body{background-image: url(assets/bcbackground@2x.png);
+  font-family: "Ole", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+h1{color: rgb(0, 0, 0);
+font-size: 100px;
+}
