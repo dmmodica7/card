@@ -3,7 +3,40 @@ body{background-image: url(assets/bcbackground@2x.png);
   font-weight: 400;
   font-style: normal;
 }
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-areas:
+    ". . . . . . . . . . . ."
+    ". t t t t . o i i i i ."
+    ". t t t t . o i i i i ."
+    ". m m m m m m . . . . ."
+    ". m m m m m m h h h h f"
+    ". . . . . . . h h h h f";
+  max-width: 1722px;
+  min-height: 1117px;
+  margin: 0 auto;
+}
 
+/* Grid Areas */
+.title { 
+    grid-area: t; 
+    }
+.open-curly { 
+    grid-area: o; 
+    }
+.image { 
+    grid-area: i; 
+    }
+.main { 
+    grid-area: m; 
+}
+.highlights { 
+    grid-area: h; 
+}
+.closing-curly { 
+    grid-area: f; 
+}
 
 
 
