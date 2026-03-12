@@ -7,35 +7,32 @@ body{background-image: url(assets/bcbackground@2x.png);
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-areas:
-    ". . . . . . . . . . . ."
-    ". t t t t . o i i i i ."
-    ". t t t t . o i i i i ."
-    ". m m m m m m . . . . ."
-    ". m m m m m m h h h h f"
-    ". . . . . . . h h h h f";
+    "l l t t t t t t t t r r"
+    "l l t t t t t t t t r r"
+    "l l t t t t t t t t r r"
+    "l l m m m m m m m m r r"
+    "l l m m m m m m m m r r"
+    "l l b b b b b b b b r r";
   max-width: 1722px;
   min-height: 1117px;
   margin: 0 auto;
 }
 
 /* Grid Areas */
-.title { 
+.top { 
     grid-area: t; 
     }
-.open-curly { 
-    grid-area: o; 
+.left { 
+    grid-area: l; 
     }
-.image { 
-    grid-area: i; 
+.right { 
+    grid-area: r; 
     }
-.main { 
+.middle { 
     grid-area: m; 
 }
-.highlights { 
-    grid-area: h; 
-}
-.closing-curly { 
-    grid-area: f; 
+.bottom { 
+    grid-area: b; 
 }
 
 
@@ -43,7 +40,7 @@ body{background-image: url(assets/bcbackground@2x.png);
 
 
 
-
+.container
 h1{color: rgb(0, 0, 0);
 font-size: 100px;
 }
