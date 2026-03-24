@@ -21,18 +21,22 @@ body{background-image: url(assets/bcbackground@2x.png);
 /* Grid Areas */
 .top { 
     grid-area: t; 
-    }
+    text-align: center;
+}
 .left { 
     grid-area: l; 
     }
 .right { 
     grid-area: r; 
+    text-align: right;
     }
 .middle { 
     grid-area: m; 
+    text-align: center;
 }
 .bottom { 
     grid-area: b; 
+    text-align: center;
 }
 
 
@@ -41,5 +45,9 @@ body{background-image: url(assets/bcbackground@2x.png);
 
 .container
 h1{color: rgb(0, 0, 0);
+font-size: 200px;
+}
+
+h2{color: rgb(0, 0, 0);
 font-size: 100px;
 }
