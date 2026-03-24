@@ -2,6 +2,7 @@ body{background-image: url(assets/bcbackground@2x.png);
   font-family: "Ole", cursive;
   font-weight: 400;
   font-style: normal;
+  line-height: 0.3;
 }
 .container {
   display: grid;
@@ -11,7 +12,7 @@ body{background-image: url(assets/bcbackground@2x.png);
     "l l t t t t t t t t r r"
     "l l t t t t t t t t r r"
     "l l m m m m m m m m r r"
-    "l l m m m m m m m m r r"
+    "l l b b b b b b b b r r"
     "l l b b b b b b b b r r";
   max-width: 1722px;
   min-height: 1117px;
@@ -33,12 +34,15 @@ body{background-image: url(assets/bcbackground@2x.png);
 .middle { 
     grid-area: m; 
     text-align: center;
-}
+    }
 .bottom { 
     grid-area: b; 
     text-align: center;
-}
+    svg{
+        height: 50%;
 
+    }
+}
 
 
 
@@ -50,4 +54,8 @@ font-size: 200px;
 
 h2{color: rgb(0, 0, 0);
 font-size: 100px;
+}
+
+h3{color: rgb(0, 0, 0);
+font-size: 50px;
 }
