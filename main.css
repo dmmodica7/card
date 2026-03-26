@@ -24,6 +24,7 @@ body{background-image: url(assets/bcbackground@2x.png);
     grid-area: t; 
     text-align: center;
 }
+
 .left { 
     grid-area: l; 
     }
@@ -34,14 +35,12 @@ body{background-image: url(assets/bcbackground@2x.png);
 .middle { 
     grid-area: m; 
     text-align: center;
+    margin-top: -25%;
     }
 .bottom { 
     grid-area: b; 
     text-align: center;
-    svg{
-        height: 50%;
-
-    }
+    margin-top: -10%;
 }
 
 
@@ -57,5 +56,5 @@ font-size: 100px;
 }
 
 h3{color: rgb(0, 0, 0);
-font-size: 50px;
+font-size: 40px;
 }
